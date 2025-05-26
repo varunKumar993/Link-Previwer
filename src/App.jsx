@@ -7,7 +7,14 @@ function App() {
       <div> checkout my </div>
       <LinkPreviewer url="#">
         <span className="link">Instagram</span>
-      </LinkPreviewer>
+      </LinkPreviewer>{" "}
+      Profile
+      <div>
+        And my
+        <LinkPreviewer url="#">
+          <span className="link">Github</span>
+        </LinkPreviewer>{" "}
+      </div>
     </div>
   );
 }
