@@ -25,6 +25,13 @@ function App() {
         </LinkPreviewer>{" "}
         Website
       </div>
+      <div>
+        And my
+        <LinkPreviewer url="#">
+          <span className="link">Website</span>
+        </LinkPreviewer>{" "}
+        Website
+      </div>
     </div>
   );
 }
