@@ -1,36 +1,29 @@
 import React from "react";
 import LinkPreviewer from "./LinkPreviewer";
+import "./App.css";
 
 function App() {
   return (
     <div className="container">
       <div>
-        {" "}
-        checkout my
-        <LinkPreviewer url="#">
+        Checkout my{" "}
+        <LinkPreviewer url="https://www.instagram.com/yourprofile">
           <span className="link">Instagram</span>
         </LinkPreviewer>{" "}
-        Profile{" "}
+        profile
       </div>
       <div>
-        And my
-        <LinkPreviewer url="#">
+        And my{" "}
+        <LinkPreviewer url="https://github.com/yourusername">
           <span className="link">Github</span>
-        </LinkPreviewer>{" "}
+        </LinkPreviewer>
       </div>
       <div>
-        And my
-        <LinkPreviewer url="#">
+        And my{" "}
+        <LinkPreviewer url="https://yourwebsite.com">
           <span className="link">Website</span>
         </LinkPreviewer>{" "}
-        Website
-      </div>
-      <div>
-        And my
-        <LinkPreviewer url="#">
-          <span className="link">Website</span>
-        </LinkPreviewer>{" "}
-        Website
+        website
       </div>
     </div>
   );
